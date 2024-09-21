@@ -1,0 +1,74 @@
+/* Basic Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Change background on scroll */
+.scrolled {
+    background-color: #333;
+}
+
+.scrolled a {
+    color: #fff;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+    color: #ff6347;
+}
+
+/* Section Styling */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+}
+
+#home {
+    background: #333;
+    color: #fff;
+}
+
+#about {
+    background: #ddd;
+}
+
+#services {
+    background: #bbb;
+}
+
+#contact {
+    background: #999;
+}
